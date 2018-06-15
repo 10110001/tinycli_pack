@@ -1,0 +1,23 @@
+{
+  "name": "tinycli_pack",
+  "version": "1.0.6",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "bin": {
+    "tinycli": "./bin/pack"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-traverse": "^6.26.0",
+    "babylon": "^6.18.0",
+    "chalk": "^2.4.1",
+    "ora": "^2.1.0",
+    "path": "^0.12.7",
+    "tildify": "^1.2.0"
+  }
+}
